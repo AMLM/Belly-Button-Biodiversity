@@ -55,7 +55,7 @@ function buildChart(sample) {
       x: sample_values.slice(0, 10).reverse(),
       //y: otu_ids.slice(0,10).map(otuID => `OTU ${otuID}`).reverse(),
       text: otu_labels.slice(0, 10).reverse(),
-      name: "Greek",
+      name: "BarGraph",
       type: "bar",
       orientation: "h",
     };
